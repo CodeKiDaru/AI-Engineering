@@ -1,2 +1,6 @@
 node_modules/
-.env*
+# Ignore all .env files and variations everywhere
+**/.env*
+
+# Do not ignore .env.sample anywhere (or specifically in root/subfolders)
+!**/.env.sample
